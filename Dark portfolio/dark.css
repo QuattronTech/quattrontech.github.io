@@ -1,0 +1,444 @@
+body{
+    background-color: black;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+.all{
+    max-width: 1100px;
+    width: 80%; 
+    padding-left: 140px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h3,h4,h5,h6,p{
+    color: white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+/* Nav (Small Screen) */
+.small-nav{
+    display: none;
+}
+
+/* Nav (Big Screen) */
+.nav{
+    background-color: rgb(44, 44, 44);
+    float: left;
+    text-align: center;
+    position: fixed;
+    height: 100%;
+}
+
+.nav img{
+    width: 130px;
+}
+
+.nav a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: black;
+    padding: 20px;
+}
+
+.nav i{
+    color: white;
+}
+
+/* My Name */
+
+.im{
+    text-align: center;
+    font-size: 48px;
+}
+
+.john-doe{
+    display: none;
+}
+
+.im p{
+    font-size: 30px;   
+}
+
+.im img{
+    width: 100%;
+}
+
+.name h2{
+    color: white;
+}
+
+.my-name{
+    padding-top: 100px;
+}
+
+hr{
+    margin: 20px 0px;
+}
+
+.name p{
+    font-size: 18px;
+    line-height: 2vh;
+}
+
+/* Skills */
+.my-skills{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.white{ 
+    background-color: white;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.bar{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.bar ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    list-style: none;
+}
+
+/* Resume */ 
+
+.download p{
+    background-color: white;
+    width: 180px;
+    padding: 15px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.download p:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.price h2{
+    color: white;
+}
+
+/* Package Plans */ 
+
+.basic{
+    background-color: white;
+    width:49%;
+    float: left;
+    text-align: center;
+}
+
+.dark-background{
+    background-color: gray;
+    color: white;
+    padding: 30px;
+    margin-top: 0px;
+}
+
+.basic ul{
+    padding: 0px;
+}
+
+.gray-background{
+    background-color: red;
+}
+
+.more-margin{
+    margin-bottom: 20px;
+}
+
+.gray-background{
+    background-color: lightgray;
+}
+
+.signUp{
+    background-color: white;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+}
+
+.signUp:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.basic ul{
+    margin-bottom: 0px;
+}
+
+#pro{
+    float: right;
+}
+
+/* Reputation */
+
+.Rep-ul {
+    display: inline-grid;
+}
+
+
+.image{
+    float: left;
+}
+
+.rep img{
+    border-radius: 100%;
+    width: 110px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.rep ul{
+    padding: 0px;
+}
+
+.text{
+    justify-content: right;
+    float: right;
+}
+
+/* Photos */
+
+.photos{
+    padding-top: 100px;
+    padding-bottom: 500px;
+}
+
+.half img{
+    width: 100%;
+}
+
+.half2 img{
+    width: 100%;
+}
+
+.half{
+    width: 49%;
+    float: left;
+    margin-bottom: 200px;
+}
+
+.half2{
+    width: 49%;
+    float: right;
+    margin-bottom: 200px;
+}
+
+/* Contact */
+
+.contact hr{
+    width: 200px;
+}
+
+.contact i{
+    font-size: 30px;
+}
+
+.touch{
+    margin-top: 50px;
+}
+
+.form-style{
+    width: 90%;
+    padding: 20px;
+}
+
+.submit{
+    padding: 15px 40px;
+    border: 0px;
+}
+
+.submit:hover{
+    background-color: lightgray;
+}
+
+/* Footer */
+footer h1{
+    display: inline-flex;
+    padding-top: 100px;
+    margin: 5px;    
+    cursor: pointer;
+}
+
+footer h1 i:hover{
+    color: gray;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px){
+    body{
+        /*background-color: green;*/
+    }
+
+    /* Nav (small screen) */
+    .small-nav{
+        text-align: center;
+        display: initial;
+    }
+
+    .small-div{
+        padding-top: 10px;
+    }
+
+    .small-div a{
+        margin: 10px;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Nav (big screen)*/
+    .nav{
+        display: none;
+    }
+
+    /* all */
+
+    .all{
+        padding: 0px;     
+    }
+
+    /* My Name */
+    .im{
+        margin-top: 50px;
+    }
+
+    .im-john-doe{
+        display: none;
+    }
+
+    .john-doe{
+        font-family: "Montserrat", sans-serif;
+        font-size: 71px;
+        display: unset;
+    }
+
+    .im p{
+        font-size: 18px;
+    }
+
+    .im img{
+        margin-bottom: 37%;
+    }
+
+    .my-name{
+        padding-top: 0px;
+    }
+
+    /* skills */
+
+    .gray{
+        height: 25px !important;
+    }
+    /* Name */
+    .name p{
+        line-height: normal;
+    }
+
+    .bar{
+        flex-direction:column;
+    }
+
+    .bar ul{
+        padding: 0px;
+    }
+
+    /* Pro */
+
+    .basic{
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* Repuation */
+
+    .text {
+        float: none;
+    }
+
+    /* photos */
+    .photos{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .half{
+        width: 100%;
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    .half2{
+        width: 100%;
+        float: none;
+        margin-bottom: 0px;
+    }
+
+    /* form */
+
+    form{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    /* Nav (small screen) */
+    .small-nav{
+        text-align: center;
+    }
+
+    .small-div{
+        padding-top: 10px;
+    }
+
+    .small-div a{
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+}
+
+@media only screen and (max-width: 280px){
+
+    /* Nav (small screen) */
+    .small-div a{
+        font-size: 14px;
+        margin: 5px;
+        color: white;
+        text-decoration: none;
+    }
+
+}

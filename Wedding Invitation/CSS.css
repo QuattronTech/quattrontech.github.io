@@ -1,0 +1,435 @@
+body{
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.landing-page{
+    color: white;
+    background-color: #ffdddd8f;
+}
+
+.landing-page img{
+    width: 100%;
+    
+}
+
+.over-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.over-img-h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.over-img-h3{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Ended of landing-page */
+.john{
+    background-color: #ffdddd8f;
+    padding-bottom: 100px;
+} 
+
+.john h2{
+    text-align: center;
+    color: gray;
+    padding-top: 75px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+.john img{
+    max-width: 1130px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+p{
+    max-width: 1130px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.details{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.details:hover{
+    background-color: rgba(0, 0, 0, 0.664);;
+}
+
+/* End of john */
+
+img{
+    width: 100%;
+}
+
+div.flowers{
+    background-color: #ffdddd8f;
+}
+
+
+/*
+.flowers-div-h2{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+*/
+
+/* End of flowers */
+.wedding{
+    background-color: #ffdddd8f;
+    padding-bottom: 200px;
+}
+
+.wedding h1{  
+    text-align: center;
+    margin: 0px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wedding img{
+    max-width: 1130px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;  
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.when-where{
+    max-width: 1130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.when{
+    /*background-color: rebeccapurple;*/
+    width: 500px;
+    float: left;
+    text-align: center;
+}
+
+.where{
+    /*background-color: red;*/
+    width: 500px;
+    float: right;
+    text-align: center;
+}
+
+/* End of wedding */
+
+.make-it{
+    background-color: #ffdddd;
+    padding: 100px;
+    text-align: center;
+}
+
+.rsvp{
+    background-color: #f44336c4;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.rsvp:hover{
+    background-color: #fd0000;
+}
+
+/* End of make-it */
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+p.p-text{
+    margin-top:0px;
+}
+
+div.text{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* End of footer */
+.nav{
+    text-align: center;
+}
+
+.nav-ul{
+    display: inline-flex;
+}
+
+.nav-ul li{
+    list-style: none;
+}
+
+.nav-ul li a{
+    margin: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: gray;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+/* Media quars */
+@media (max-width: 1150px){
+    
+    .john img {
+        max-width: 900px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .john{ 
+        padding-bottom: 100px;
+    }
+
+    .wedding img{
+        max-width: 900px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .wedding {
+        padding-bottom: 200px;
+    }
+
+    .when{
+        width: 450px;
+    }
+
+    .where{
+        width: 450px;
+    }
+
+    p{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Media quars */
+
+@media (max-width: 980px){
+    
+    .john {
+        padding-bottom: 100px;
+    }
+
+    .wedding {
+        padding-bottom: 200px;
+    }
+
+    .when{
+        width: 350px;
+    }
+
+    .where{
+        width: 350px;
+    }
+
+    p{
+        max-width: 700px;
+        padding:0px;
+    }
+}
+
+/* Media quars */
+
+@media (max-width: 768px){
+
+    .john img {
+        max-width: 700px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .john {
+        padding-bottom: 100px;
+    }
+
+    .wedding img{
+        max-width: 700px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .wedding {
+        padding-bottom: 200px;
+    }
+
+    .when{
+        width: 300px;
+    }
+
+    .where{
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .where{
+        width: 200px;
+        margin-right: 50px;
+    }
+
+    .when{
+        width: 200px;
+        margin-left: 50px;
+    }
+
+}
+
+
+@media (max-width: 540px){
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    .john img{
+        max-width: 90%;
+        border-radius: 5px;
+    }
+
+    .wedding img{
+        max-width: 90%;
+        border-radius: 5px;
+    }
+
+    .when{
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+    }
+
+    .where{
+        margin-right: auto;
+        margin-left: auto;
+        float: none;
+        margin-top: 50px;
+    }
+
+    .wedding{
+        padding-bottom: 100px;
+    }
+
+    .details{
+        padding: 13px;
+        font-size: 18px;
+    }
+
+    .rsvp{
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    footer p{
+        margin: 0px;
+    }
+
+    p{
+        width: 90%;
+    }
+
+    .p-text{
+        width: 100%;
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+@media (min-width: 606px){
+    .nav-ul li a {
+        margin: 30px;
+        color: black;
+        text-decoration: none;
+    }
+
+}
+
+
+@media (max-width: 606px){
+    .nav-ul li a {
+        display: none;
+    }
+    
+    .nav{
+        display: none;
+    }
+}
