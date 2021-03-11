@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    font-size: 18px;
+}
+
+.nav{
+    background-color: lightslategrey;
+    text-align: right;
+}
+
+.nav ul {
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 5%;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;  
+    margin-left: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover{
+    padding: 10px 20px;
+    background-color: rgb(69, 82, 95);
+    border-radius: 5px;
+}
+
+/* End of Nav */
+
+.home{
+    background-color: rgba(40, 129, 231, 0.651);
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    background-color: black;
+    width: 180px;
+    text-align: center;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* End of Home page */
+
+.website-box{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ul.box{
+    margin:0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.box-background{
+    background-color: rgb(134, 216, 219);
+}
+
+.box-background:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.text{
+    text-align: center;
+}
+
+.tittle a{
+    color: black;
+}
+
+p{
+    margin: 0px;
+    padding: 20px 10px;
+}
+
+/* End of website box */
+
+.footer-div{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*
+@media (max-width: 900px){
+    ul.box {
+        margin: 0px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+}
+*/
+
+@media (max-width: 600px){
+    
+    .nav{
+        text-align: center;
+    }
+
+    ul{
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .website-box{
+        display: initial;
+    }
+
+    .box-background{
+        margin-top: 30px;
+    }
+
+  
+}
